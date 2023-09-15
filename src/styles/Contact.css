@@ -1,0 +1,76 @@
+.contacto-form {
+    max-width: 400px; /* Establece un ancho máximo para el formulario */
+    margin: 0 auto; /* Centra el formulario en el centro de la página */
+    padding: 20px; /* Agrega espacio interno al formulario */
+    background-color: #f7f7f7; /* Color de fondo */
+    border: 1px solid #ccc; /* Borde del formulario */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para el título "Contacto" dentro del formulario */
+.contacto-form h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los elementos del formulario dentro de la clase "contacto-form" */
+.contacto-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555; /* Color de etiquetas */
+}
+
+.contacto-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilo para el botón de envío dentro de la clase "contacto-form" */
+.contacto-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Efecto de transición */
+}
+
+.contacto-form button[type="submit"]:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilo para los mensajes de error y éxito dentro de la clase "contacto-form" */
+.contacto-form p.error-message {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+.contacto-form p.success-message {
+    color: #4caf50;
+    font-size: 14px;
+}
+
+#Dark{
+    background-color: #282c34;
+    height: 100vh;
+
+}
+
+#Light{
+    background-color: #f2f4f6;
+    color: #0d3f67;
+    height: 100vh;
+}
+
+
+
+

@@ -1,0 +1,23 @@
+header {
+    background-color: #0074e4;
+    /* Cambia este color al azul que desees */
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
